@@ -291,7 +291,6 @@ main .main__list {
     left: -100px;
     -webkit-transition: ease 0.5s;
     transition: ease 0.5s;
-    height: 100vh;
   }
 }
 main .main__list .main__item {
@@ -1058,6 +1057,7 @@ main .layout {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  position: relative;
 }
 .trade .trade__wrap .trade__btn {
   background-color: #444546;

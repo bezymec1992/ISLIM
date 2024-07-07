@@ -243,7 +243,7 @@ main {
       top: 0;
       left: -100px;
       transition: ease 0.5s;
-      height: 100vh;
+      //height: 100vh;
     }
 
     .main__item {
@@ -902,6 +902,7 @@ main {
 
     .trade__form {
       display: flex;
+      position: relative;
     }
 
     .trade__btn {

@@ -5,17 +5,16 @@
   left: 50%;
   transform: translateX(-50%) translateY(-50%);
   display: none;
-  
+
   @media screen and (max-width: 768px) {
     top: 75px;
   }
 
   aspect-ratio: 4;
   --_g: no-repeat radial-gradient(circle closest-side, #000 90%, #0000);
-  background:
-    var(--_g) 0% 50%,
-    var(--_g) 50% 50%,
-    var(--_g) 100% 50%;
+  background: var(--_g) 0% 50%,
+  var(--_g) 50% 50%,
+  var(--_g) 100% 50%;
   background-size: calc(100%/3) 100%;
   animation: l7 1s infinite linear;
 }
@@ -31,5 +30,42 @@
 
   66% {
     background-size: calc(100%/3) 100%, calc(100%/3) 100%, calc(100%/3) 0%
+  }
+}
+
+.trade__popup {
+  display: none;
+  position: absolute;
+  top: -63px;
+  right: 100%;
+
+
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 22px;
+  border-radius: 4px;
+  width: 300px;
+  text-align: center;
+  color: white;
+  animation: popup 1.5s linear;
+  padding: 10px 15px;
+  background-color: rgb(89, 87, 87);
+
+
+}
+
+@keyframes popup {
+  0% {
+    top: -17px;
+    opacity: 0;
+  }
+
+  50% {
+    opacity: 1;
+    top: -63px;
+  }
+
+  100% {
+    top: -63px;
   }
 }
