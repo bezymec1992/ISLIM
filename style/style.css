@@ -504,7 +504,7 @@ main .layout {
             flex-direction: row;
   }
   .tehnology .tehnology__wrap .tehnology__box::after {
-    content: url("/imgs/arrow-right.svg");
+    content: url("imgs/arrow-right.svg");
     position: absolute;
     top: 50%;
     right: -15px;

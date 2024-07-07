@@ -435,7 +435,7 @@ main {
         flex-direction: row;
 
         &::after {
-          content: url('/imgs/arrow-right.svg');
+          content: url('imgs/arrow-right.svg');
           position: absolute;
           top: 50%;
           right: -15px;
