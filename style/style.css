@@ -504,7 +504,7 @@ main .layout {
             flex-direction: row;
   }
   .tehnology .tehnology__wrap .tehnology__box::after {
-    content: url("imgs/arrow-right.svg");
+    content: url("../imgs/arrow-right.svg");
     position: absolute;
     top: 50%;
     right: -15px;
@@ -913,7 +913,7 @@ main .layout {
   }
 }
 .casual .casual__box:first-child {
-  background: url("imgs/casual-1.jpg") no-repeat center center/cover;
+  background: url("../imgs/casual-1.jpg") no-repeat center center/cover;
   min-height: 332px;
   max-width: 549px;
   -ms-grid-row: 1;
@@ -955,7 +955,7 @@ main .layout {
   color: white;
 }
 .casual .casual__box:nth-child(2) {
-  background: url("imgs/casual-2.jpg") no-repeat center center/cover;
+  background: url("../imgs/casual-2.jpg") no-repeat center center/cover;
   min-height: 159px;
   max-width: 295px;
   -ms-grid-row: 1;
@@ -977,7 +977,7 @@ main .layout {
   }
 }
 .casual .casual__box:nth-child(3) {
-  background: url("imgs/casual-3.jpg") no-repeat center center/cover;
+  background: url("../imgs/casual-3.jpg") no-repeat center center/cover;
   min-height: 159px;
   max-width: 295px;
   -ms-grid-row: 2;
@@ -1010,7 +1010,7 @@ main .layout {
   }
 }
 .casual .casual__box:nth-child(4) {
-  background: url("imgs/casual-4.jpg") no-repeat center center;
+  background: url("../imgs/casual-4.jpg") no-repeat center center;
   min-height: 332px;
   max-width: 256px;
   -ms-grid-row: 1;
