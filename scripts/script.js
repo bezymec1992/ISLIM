@@ -2,6 +2,12 @@ document.addEventListener("DOMContentLoaded", function () {
   const cards = document.querySelectorAll(".cards");
   const likesCounter = document.querySelector(".likes-counter");
   const images = ["imgs/heart-white.svg", "imgs/heart-gray.svg"];
+  const likesModal = document.querySelector('.likes__modal')
+  const likesModalX = document.querySelector('.likes__modal-x');
+
+  likesModalX.addEventListener('click', () => {
+    likesModal.classList.remove('likes__modal-open')
+  })
 
   let likes = 0;
 
@@ -15,6 +21,15 @@ document.addEventListener("DOMContentLoaded", function () {
         likes += isBuy ? 1 : -1;
         likesCounter.style.display = likes > 0 ? "flex" : "none";
         likesCounter.textContent = likes;
+
+        if (target.classList.contains("buy")) {
+          likesModal.classList.add('likes__modal-open')
+          
+          setTimeout(() => {
+            
+            likesModal.classList.remove('likes__modal-open')
+          }, 3000);
+        }
       }
     });
   });
