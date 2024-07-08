@@ -706,6 +706,7 @@ main .layout {
   height: 250px;
   -o-object-fit: cover;
      object-fit: cover;
+  border-radius: 4px;
 }
 @media screen and (max-width: 768px) {
   .cards .card .card__img {
